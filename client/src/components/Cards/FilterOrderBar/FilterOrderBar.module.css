@@ -1,0 +1,89 @@
+.contains{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.options label{
+    color: rgb(251, 255, 0);
+    background-color: transparent;
+}
+
+.options select{
+    color: rgb(251, 255, 0);
+    background: #000000;
+    cursor: pointer;
+}
+
+.button{
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(107, 102, 102);
+    color: rgb(0, 0, 0);
+    border: 5px double rgb(78, 78, 78);
+    border-radius: 80%;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(196, 196, 33);
+    border: 5px double rgb(255, 0, 0);
+}
+
+@media screen and (max-width: 1280px) {
+    .options label{
+        font-size: 70%;
+    }
+    .options select{
+        font-size: 70%;
+    }
+    .button{
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .options label{
+        font-size: 60%;
+    }
+    .options select{
+        font-size: 60%;
+    }
+    .button{
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .options label{
+        font-size: 60%;
+    }
+    .options select{
+        font-size: 60%;
+    }
+    .button{
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .options label{
+        font-size: 50%;
+    }
+    .options select{
+        font-size: 50%;
+    }
+    .button{
+        font-size: 50%;
+    }
+}

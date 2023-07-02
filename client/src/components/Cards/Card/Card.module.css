@@ -1,0 +1,98 @@
+.contains{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+    width: 17%;
+    background: rgb(126, 47, 16);
+    border-radius: 15%;
+    box-shadow: 0px 0px 10px 2px rgb(78, 27, 7);
+}
+
+.contains img{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+
+.Link{
+    text-decoration: none;
+    color: rgb(16, 199, 32);
+}
+
+.country{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1%;
+    height: 1%;
+    padding-top: 5%;
+    padding-left: 50%;
+}
+
+.continent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1%;
+    height: 1%;
+    padding-top: 5%;
+    padding-left: 50%;
+}
+
+@media screen and (max-width: 1280px) {
+    .contains{
+        height: 27%;
+    }
+    .country{
+        font-size: 70%;
+        font-weight: bolder;
+    }
+    .continent{
+        font-size: 70%;
+        font-weight: bolder;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .contains{
+        flex-direction: column wrap;
+        height: 28%;
+    }
+    .country{
+        font-size: 60%;
+        font-weight: bolder;
+    }
+    .continent{
+        font-size: 60%;
+        font-weight: bolder;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .country{
+        font-size: 60%;
+        font-weight: bolder;
+    }
+    .continent{
+        font-size: 60%;
+        font-weight: bolder;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .contains{
+        height: 40%;
+    }
+    .country{
+        font-size: 50%;
+        font-weight: bolder;
+    }
+    .continent{
+        font-size: 50%;
+        font-weight: bolder;
+    }
+}

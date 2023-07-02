@@ -1,0 +1,16 @@
+.contains{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.contains h1{
+    color: rgb(251, 255, 0);
+}
+
+.contains h4{
+    color: rgb(251, 255, 0);
+}

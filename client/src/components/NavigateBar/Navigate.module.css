@@ -1,0 +1,58 @@
+.contains{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 1536px;
+    height: 3rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Search{
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Link{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: rgb(251, 255, 0);
+    border: none;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1536px) {
+    .contains{
+        width: 1280px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .contains{
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .contains{
+        width: 640px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .contains{
+        width: 475px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .contains{
+        width: 100%;
+    }
+}
