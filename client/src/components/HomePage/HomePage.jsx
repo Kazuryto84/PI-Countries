@@ -16,8 +16,9 @@ export default function HomePage(){
     }, []);
 
     return (
+    
         <div className={style.contains} >
-
+            
             <div className={style.filter} >
                 <FilterOrderBar />
             </div>

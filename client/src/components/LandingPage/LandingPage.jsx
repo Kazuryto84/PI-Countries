@@ -15,9 +15,11 @@ export default function LandingPage(){
                          Home Page
                     
                 </Link>
-
+                <Link to="https://github.com/Kazuryto84">
+                <footer className={style.footer}> GitHub </footer>
+                </Link >
             </div>
-        
+            
         </div>
     );
 }

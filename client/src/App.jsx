@@ -10,6 +10,7 @@ import DetailPage from './components/DetailPage/DetailPage';
 import NavigateBar from './components/NavigateBar/NavigateBar';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 
+
 function App() {
   
   const dispatch = useDispatch();
@@ -19,7 +20,7 @@ function App() {
 
   return (
     
-      <div className="App">
+      <div className='App' >
        {dictionary[pathname] && <div className="navBar"> <NavigateBar /> </div>}
        
        <Routes>

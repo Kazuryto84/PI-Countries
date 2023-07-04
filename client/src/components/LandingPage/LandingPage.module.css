@@ -4,6 +4,7 @@
   }
   
   .boton {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -41,6 +42,7 @@
   }
 
   .titulo {  
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;     
      text-transform: uppercase;
      position: absolute;   
      top: 20%;   
@@ -48,3 +50,14 @@
      transform: translate(-50%, -50%);  
      margin: 0;
      color: white; }
+
+    .footer {
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;     
+     text-transform: uppercase;
+     position: absolute;   
+     top: 99%;   
+     left: 2%;   
+     transform: translate(-50%, -50%);  
+     margin: 0;
+     color: white; }
+    

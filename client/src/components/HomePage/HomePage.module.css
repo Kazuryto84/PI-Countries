@@ -1,4 +1,6 @@
 .contains{
+    background-image: url('https://res.cloudinary.com/dxgfa8mob/image/upload/v1688506477/PI%20Countries/224-2244318_world-map-wallpaper-4360-1920-x-1080-wallpaper_hrxkgt.jpg');
+    background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: center;
