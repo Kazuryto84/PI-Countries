@@ -6,6 +6,7 @@
 }
 
 .options{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,13 +14,14 @@
 }
 
 .options label{
-    color: rgb(251, 255, 0);
+    color: rgb(242, 243, 238);
     background-color: transparent;
 }
 
 .options select{
-    color: rgb(251, 255, 0);
-    background: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(243, 243, 236);
+    background: #565353;
     cursor: pointer;
 }
 
@@ -36,8 +38,8 @@
 }
 
 .button:hover{
-    background-color: rgb(196, 196, 33);
-    border: 5px double rgb(255, 0, 0);
+    background-color: rgb(223, 178, 33);
+    border: 5px double rgb(195, 46, 46);
 }
 
 @media screen and (max-width: 1280px) {

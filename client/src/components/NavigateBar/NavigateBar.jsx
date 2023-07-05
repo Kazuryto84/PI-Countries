@@ -8,7 +8,7 @@ export default function NavigateBar(){
             <div >
                 <Link className={style.Link} to="/home">
                     <div>
-                        Home
+                      <button className={style.botonhome}>Home</button>  
                     </div>
                 </Link>
             </div>
@@ -20,7 +20,7 @@ export default function NavigateBar(){
             <div >
                 <Link className={style.Link} to="/activity">
                     <div>
-                    Create Activity
+                   <button className={style.botoncreate}>Create Activity</button> 
                     </div>
                 </Link>
             </div>

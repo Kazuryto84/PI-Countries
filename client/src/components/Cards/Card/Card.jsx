@@ -7,8 +7,9 @@ export default function Card({id, flag, name, continent}){
         <div key={id} className={style.contains} >
 
             <Link className={style.Link} to={`/detail/${id}`}>
+                
                 <img src={flag} alt={name} />
-
+                
                 <div className={style.country}>
                     Country: {name}
                 </div>

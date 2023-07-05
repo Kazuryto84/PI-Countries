@@ -3,22 +3,25 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 35%;
+    height: 40%;
     width: 17%;
-    background: rgb(126, 47, 16);
-    border-radius: 15%;
-    box-shadow: 0px 0px 10px 2px rgb(78, 27, 7);
+    background-image: url('https://res.cloudinary.com/dxgfa8mob/image/upload/v1688511590/PI%20Countries/GettyImages-1039558524-Converted-600px_nhw03p.jpg');
+    border-radius: 17%;
+    box-shadow: 0px 0px 10px 2px rgb(66, 130, 175);
 }
 
 .contains img{
     width: 30%;
     height: 30%;
-    border-radius: 50%;
+    border-radius: 35%;
+    
+
 }
 
 .Link{
     text-decoration: none;
-    color: rgb(16, 199, 32);
+    color: rgb(246, 247, 239);
+    
 }
 
 .country{
@@ -42,6 +45,7 @@
     padding-top: 5%;
     padding-left: 50%;
 }
+
 
 @media screen and (max-width: 1280px) {
     .contains{
