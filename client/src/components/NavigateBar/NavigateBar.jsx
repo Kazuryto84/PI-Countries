@@ -13,14 +13,14 @@ export default function NavigateBar(){
                 </Link>
             </div>
 
-            <div className={style.Search} >
+            <div className={style.Search} > 
                 <SearchBar />
             </div>
 
             <div >
                 <Link className={style.Link} to="/activity">
                     <div>
-                   <button className={style.botoncreate}>Create Activity</button> 
+                   <button className={style.botoncreate}>Create activity</button> 
                     </div>
                 </Link>
             </div>

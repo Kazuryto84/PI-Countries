@@ -97,7 +97,7 @@ export default function FormPage(){
                     </select>
                     {error.difficulty ? <div className={style.error} >{error.difficulty}</div> : null}
 
-                    <label >Duration</label>
+                    <label >Duration (Hours)</label>
                     <input name="duration" value={activity.duration} type="number" onChange={handleChange} />
                     {error.duration ? <div className={style.error} >{error.duration}</div> : null}
 

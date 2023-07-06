@@ -1,97 +1,27 @@
 .contains{
-    background-image: url('https://res.cloudinary.com/dxgfa8mob/image/upload/v1688506477/PI%20Countries/224-2244318_world-map-wallpaper-4360-1920-x-1080-wallpaper_hrxkgt.jpg');
+    background-image: url('https://i0.wp.com/ningunlugarestalejos.com/wp-content/uploads/2021/04/Globo.jpg?fit=1200%2C800&ssl=1');
     background-size: cover;
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 1536px;
-    margin-right: auto;
-    margin-left: auto;
+
 }
 
 .filter{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 5%;
-    margin-left: 2.5%;
+    margin-left: 8%;
     margin-right: 5%;
+
 }
 .cards{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 85%;
-    margin-left: 5%;
-    margin-right: 2,5%;
+    margin: 40px 15px;
 }
 
-@media screen and (max-width: 1536px) {
-    .contains{
-        width: 1280px;
-    }
-    .cards{
-        width: 80%;
-    }
-    .filter{
-        width: 5%;
-    }
-}
-
-@media screen and (max-width: 1280px) {
-    .contains{
-        width: 768px;
-    }
-    .cards{
-        width: 75%;
-
-    }
-    .filter{
-        width: 5%;
-
-    }
-}
-
-@media screen and (max-width: 768px){
-    .contains{
-        width: 640px;
-    }
-    .cards{
-        width: 70%;
-    }
-    .filter{
-        width: 5%;
-
-    }
-}
-
-@media screen and (max-width: 640px) {
-    .contains{
-        width: 475px;
-    }
-    .cards{
-        width: 65%;
-
-    }
-    .filter{
-        width: 5%;
-
-    }
-}
-
-@media screen and (max-width: 475px) {
-    .contains{
-        width: 100%;
-    }
-    .cards{
-        width: 60%;
-
-    }
-    .filter{
-        width: 5%;
-
-    }
-}

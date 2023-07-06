@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .options{
@@ -14,14 +15,17 @@
 }
 
 .options label{
-    color: rgb(242, 243, 238);
+    font-size: 150%;
+    color: rgb(255, 255, 255);
     background-color: transparent;
+    
 }
 
 .options select{
+    font-size: 150%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(243, 243, 236);
-    background: #565353;
+    color: rgb(0, 0, 0);
+    background: #ffffffcb;
     cursor: pointer;
 }
 
@@ -30,62 +34,15 @@
     padding: 5px 5px 5px 5px;
     margin-top: 10px;
     text-align: center;
-    background-color: rgb(107, 102, 102);
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    border: 5px double rgb(78, 78, 78);
-    border-radius: 80%;
+    border: 5px double rgb(255, 255, 255);
+    border-radius: 20%;
     cursor: pointer;
 }
 
 .button:hover{
-    background-color: rgb(223, 178, 33);
-    border: 5px double rgb(195, 46, 46);
+    background-color: rgb(88, 255, 249);
+    border: 5px double rgb(107, 248, 255);
 }
 
-@media screen and (max-width: 1280px) {
-    .options label{
-        font-size: 70%;
-    }
-    .options select{
-        font-size: 70%;
-    }
-    .button{
-        font-size: 70%;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .options label{
-        font-size: 60%;
-    }
-    .options select{
-        font-size: 60%;
-    }
-    .button{
-        font-size: 60%;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    .options label{
-        font-size: 60%;
-    }
-    .options select{
-        font-size: 60%;
-    }
-    .button{
-        font-size: 60%;
-    }
-}
-
-@media screen and (max-width: 475px) {
-    .options label{
-        font-size: 50%;
-    }
-    .options select{
-        font-size: 50%;
-    }
-    .button{
-        font-size: 50%;
-    }
-}

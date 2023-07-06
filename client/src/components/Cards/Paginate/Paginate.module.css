@@ -3,18 +3,20 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    height: 100%;
+    width: 70%;
+    height: 80%;
+    margin-top: -3%;
 }
 
 .number{
-    display: flex;
+    display: fixed;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     color: rgb(245, 245, 240);
     margin-left: 10%;
     margin-right: 10%;
+   
 }
 
 .button{
@@ -29,8 +31,8 @@
 }
 
 .button:hover{
-    background-color: rgb(223, 178, 33);
-    border: 5px double rgb(195, 46, 46);
+    background-color: rgb(52, 209, 223);
+    border: 5px double rgb(52, 209, 223);
 }
 
 .buttonDistance{

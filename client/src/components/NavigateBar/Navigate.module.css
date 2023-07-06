@@ -1,13 +1,10 @@
 .contains{
-    background-color: grey;
+    background-color: rgb(21, 169, 195);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-content: space-around;
-    width: 1536px;
-    height: 3rem;
-    margin-right: auto;
-    margin-left: auto;
+    height: 5rem;
 }
 
 .Search{
@@ -32,19 +29,32 @@
 
 .botonhome {
     border: 1px solid white;
-    background-color: grey;
+    background-color: rgb(1, 220, 158);;
     margin: 0px 0px 0px 0px;
-    padding: 5.8px 5.8px 5.8px 5.8px;
+    padding:8px;
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    right: 70%;
+    bottom: 93.4%;
+    
 }
 
 .botoncreate {
     border: 1px solid white;
-    background-color: grey;
+    background-color:rgb(1, 220, 158);;
     margin: 0px 0px 0px 0px;
     padding: 5.8px 5.8px 5.8px 5.8px;
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    right: 30%;
+    bottom: 93.4%;
+    
+    
 }
 
-@media screen and (max-width: 1536px) {
+/*@media screen and (max-width: 1536px) {
     .contains{
         width: 1280px;
     }
@@ -72,4 +82,4 @@
     .contains{
         width: 100%;
     }
-}
+}*/

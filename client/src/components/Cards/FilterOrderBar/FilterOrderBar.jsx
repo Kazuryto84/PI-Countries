@@ -77,13 +77,13 @@ export default function FilterOrderBar(){
             <div className={style.options} >
                 <label>Filter Activity:</label>
                 <select name="activity"  onChange={handleChange} >
-                    <option defaultValue={filterContinent}>Select Continent</option>
+                    <option defaultValue={filterContinent}>Select Activity</option>
                     { allActivities.map((activity,index) => 
                         <option key={index} value={activity.name} >{activity.name}</option>)}
                 </select>
                     </div>
 
-            <button className={style.button} onClick={resetFilters}>All</button>
+            <button className={style.button} onClick={resetFilters}>All Countries</button>
 
         </div>
     );

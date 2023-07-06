@@ -1,16 +1,13 @@
 .contains{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    background-image: url('https://geogebra.es/gauss/materiales_didacticos/eso/actividades/geometria/cuerpos/tierra1/img/planisferio.gif');  
+    background-size: cover;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: #20a9d3;
-    box-shadow: 0px 0px 10px 2px #25b0da;
-    height: 850px;
-    width: 1536px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10%;
+    height: 1000px;
+    width: 1920px;
 }
 
 .form{
@@ -20,29 +17,34 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    padding: 50px 100px 50px 100px;
-    width: 50%;
-    background: rgb(126, 47, 16);
+    padding: 50px;
+    width: 80%;
+    background: rgba(255, 255, 255, 0);
     border-radius: 10%;
-    box-shadow: 0px 0px 10px 2px rgb(78, 27, 7);
+    box-shadow: 0px 0px 10px 2px rgb(219, 255, 214);
 }
 
 .form h2{
-    color: rgb(16, 199, 32);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
 }
 
 .form label{
-    color: rgb(16, 199, 32);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 
 .form input{
     background: rgb(126, 47, 16);
-    color: rgb(16, 199, 32);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
 }
 
 .form select{
     background: rgb(126, 47, 16);
-    color: rgb(16, 199, 32);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 
 .tag{
@@ -50,7 +52,9 @@
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    color: rgb(16, 199, 32);
+    color: rgb(255, 255, 255);
+
+
 }
 
 .button{
@@ -58,7 +62,7 @@
     margin-top: 15px;
     margin-left: 10px;
     background: rgb(126, 47, 16);
-    color: rgb(16, 199, 32);
+    color: rgb(255, 255, 255);
 }
 
 .error{
@@ -66,7 +70,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(97, 3, 3);
+    color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 1536px) {
